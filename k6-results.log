@@ -1,0 +1,1784 @@
+time="2026-05-23T18:44:43-05:00" level=info msg="Esperando 17 segundos para iniciar en el segundo 00..." source=console
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: reto3.js
+        output: json (k6-metrics.json)
+
+     scenarios: (100.00%) 1 scenario, 1 max VUs, 8m30s max duration (incl. graceful stop):
+              * dynamic_payload_scenario: 140 iterations for each of 1 VUs (maxDuration: 8m0s, gracefulStop: 30s)
+
+
+running (0m01.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m01.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m02.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m02.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m03.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m03.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m04.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m04.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m05.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m05.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m06.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m06.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m07.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m07.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m08.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m08.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m09.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m09.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m10.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m10.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m11.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m11.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m12.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m12.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m13.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m13.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m14.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m14.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m15.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m15.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m16.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m16.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m17.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m17.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m18.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m18.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m19.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m19.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m20.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m20.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m21.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m21.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m22.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m22.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m23.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m23.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m24.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m24.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m25.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m25.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m26.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m26.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m27.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m27.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m28.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m28.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m29.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m29.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m30.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m30.0s/8m0s  000/140 iters, 140 per VU
+time="2026-05-23T18:45:30-05:00" level=warning msg="Request Failed" error="Post \"https://nsc1g8yts9.execute-api.us-east-2.amazonaws.com/prod/service-api\": lookup nsc1g8yts9.execute-api.us-east-2.amazonaws.com: no such host"
+time="2026-05-23T18:45:30-05:00" level=info msg="Minute: 1, Iteration: 1, Error: true, Status: 0, Message: null" source=console
+
+running (0m31.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m31.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m32.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m32.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m33.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   0% ] 1 VUs  0m33.0s/8m0s  000/140 iters, 140 per VU
+
+running (0m34.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m34.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m35.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m35.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m36.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m36.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m37.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m37.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m38.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m38.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m39.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m39.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m40.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m40.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m41.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m41.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m42.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m42.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m43.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m43.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m44.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m44.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m45.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m45.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m46.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m46.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m47.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m47.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m48.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m48.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m49.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m49.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m50.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m50.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m51.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m51.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m52.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m52.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m53.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m53.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m54.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m54.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m55.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m55.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m56.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m56.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m57.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m57.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m58.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m58.0s/8m0s  001/140 iters, 140 per VU
+
+running (0m59.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  0m59.0s/8m0s  001/140 iters, 140 per VU
+
+running (1m00.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  1m00.0s/8m0s  001/140 iters, 140 per VU
+
+running (1m01.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  1m01.0s/8m0s  001/140 iters, 140 per VU
+
+running (1m02.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  1m02.0s/8m0s  001/140 iters, 140 per VU
+
+running (1m03.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  1m03.0s/8m0s  001/140 iters, 140 per VU
+time="2026-05-23T18:46:04-05:00" level=info msg="Minute: 1, Iteration: 2, Error: true, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m04.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  1m04.0s/8m0s  001/140 iters, 140 per VU
+
+running (1m05.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  1m05.0s/8m0s  001/140 iters, 140 per VU
+
+running (1m06.0s), 1/1 VUs, 1 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  1m06.0s/8m0s  001/140 iters, 140 per VU
+
+running (1m07.0s), 1/1 VUs, 2 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  1m07.0s/8m0s  002/140 iters, 140 per VU
+time="2026-05-23T18:46:08-05:00" level=info msg="Minute: 1, Iteration: 3, Error: true, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m08.0s), 1/1 VUs, 2 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  1m08.0s/8m0s  002/140 iters, 140 per VU
+
+running (1m09.0s), 1/1 VUs, 2 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  1m09.0s/8m0s  002/140 iters, 140 per VU
+
+running (1m10.0s), 1/1 VUs, 2 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   1% ] 1 VUs  1m10.0s/8m0s  002/140 iters, 140 per VU
+
+running (1m11.0s), 1/1 VUs, 3 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   2% ] 1 VUs  1m11.0s/8m0s  003/140 iters, 140 per VU
+time="2026-05-23T18:46:11-05:00" level=info msg="Minute: 1, Iteration: 4, Error: true, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m12.0s), 1/1 VUs, 3 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   2% ] 1 VUs  1m12.0s/8m0s  003/140 iters, 140 per VU
+
+running (1m13.0s), 1/1 VUs, 3 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   2% ] 1 VUs  1m13.0s/8m0s  003/140 iters, 140 per VU
+
+running (1m14.0s), 1/1 VUs, 3 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   2% ] 1 VUs  1m14.0s/8m0s  003/140 iters, 140 per VU
+time="2026-05-23T18:46:15-05:00" level=info msg="Minute: 1, Iteration: 5, Error: true, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m15.0s), 1/1 VUs, 4 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   3% ] 1 VUs  1m15.0s/8m0s  004/140 iters, 140 per VU
+
+running (1m16.0s), 1/1 VUs, 4 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   3% ] 1 VUs  1m16.0s/8m0s  004/140 iters, 140 per VU
+
+running (1m17.0s), 1/1 VUs, 4 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   3% ] 1 VUs  1m17.0s/8m0s  004/140 iters, 140 per VU
+
+running (1m18.0s), 1/1 VUs, 5 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   4% ] 1 VUs  1m18.0s/8m0s  005/140 iters, 140 per VU
+time="2026-05-23T18:46:18-05:00" level=info msg="Minute: 1, Iteration: 6, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m19.0s), 1/1 VUs, 5 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   4% ] 1 VUs  1m19.0s/8m0s  005/140 iters, 140 per VU
+
+running (1m20.0s), 1/1 VUs, 5 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   4% ] 1 VUs  1m20.0s/8m0s  005/140 iters, 140 per VU
+
+running (1m21.0s), 1/1 VUs, 5 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   4% ] 1 VUs  1m21.0s/8m0s  005/140 iters, 140 per VU
+time="2026-05-23T18:46:22-05:00" level=info msg="Minute: 1, Iteration: 7, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m22.0s), 1/1 VUs, 6 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   4% ] 1 VUs  1m22.0s/8m0s  006/140 iters, 140 per VU
+
+running (1m23.0s), 1/1 VUs, 6 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   4% ] 1 VUs  1m23.0s/8m0s  006/140 iters, 140 per VU
+
+running (1m24.0s), 1/1 VUs, 6 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   4% ] 1 VUs  1m24.0s/8m0s  006/140 iters, 140 per VU
+time="2026-05-23T18:46:25-05:00" level=info msg="Minute: 1, Iteration: 8, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m25.0s), 1/1 VUs, 7 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   5% ] 1 VUs  1m25.0s/8m0s  007/140 iters, 140 per VU
+
+running (1m26.0s), 1/1 VUs, 7 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   5% ] 1 VUs  1m26.0s/8m0s  007/140 iters, 140 per VU
+
+running (1m27.0s), 1/1 VUs, 7 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   5% ] 1 VUs  1m27.0s/8m0s  007/140 iters, 140 per VU
+
+running (1m28.0s), 1/1 VUs, 8 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   6% ] 1 VUs  1m28.0s/8m0s  008/140 iters, 140 per VU
+time="2026-05-23T18:46:28-05:00" level=info msg="Minute: 1, Iteration: 9, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m29.0s), 1/1 VUs, 8 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   6% ] 1 VUs  1m29.0s/8m0s  008/140 iters, 140 per VU
+
+running (1m30.0s), 1/1 VUs, 8 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   6% ] 1 VUs  1m30.0s/8m0s  008/140 iters, 140 per VU
+
+running (1m31.0s), 1/1 VUs, 8 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   6% ] 1 VUs  1m31.0s/8m0s  008/140 iters, 140 per VU
+time="2026-05-23T18:46:32-05:00" level=info msg="Minute: 1, Iteration: 10, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m32.0s), 1/1 VUs, 9 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   6% ] 1 VUs  1m32.0s/8m0s  009/140 iters, 140 per VU
+
+running (1m33.0s), 1/1 VUs, 9 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   6% ] 1 VUs  1m33.0s/8m0s  009/140 iters, 140 per VU
+
+running (1m34.0s), 1/1 VUs, 9 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   6% ] 1 VUs  1m34.0s/8m0s  009/140 iters, 140 per VU
+
+running (1m35.0s), 1/1 VUs, 10 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   7% ] 1 VUs  1m35.0s/8m0s  010/140 iters, 140 per VU
+time="2026-05-23T18:46:35-05:00" level=info msg="Minute: 1, Iteration: 11, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m36.0s), 1/1 VUs, 10 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   7% ] 1 VUs  1m36.0s/8m0s  010/140 iters, 140 per VU
+
+running (1m37.0s), 1/1 VUs, 10 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   7% ] 1 VUs  1m37.0s/8m0s  010/140 iters, 140 per VU
+
+running (1m38.0s), 1/1 VUs, 10 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   7% ] 1 VUs  1m38.0s/8m0s  010/140 iters, 140 per VU
+time="2026-05-23T18:46:38-05:00" level=info msg="Minute: 1, Iteration: 12, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m39.0s), 1/1 VUs, 11 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   8% ] 1 VUs  1m39.0s/8m0s  011/140 iters, 140 per VU
+
+running (1m40.0s), 1/1 VUs, 11 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   8% ] 1 VUs  1m40.0s/8m0s  011/140 iters, 140 per VU
+
+running (1m41.0s), 1/1 VUs, 11 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   8% ] 1 VUs  1m41.0s/8m0s  011/140 iters, 140 per VU
+time="2026-05-23T18:46:42-05:00" level=info msg="Minute: 1, Iteration: 13, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m42.0s), 1/1 VUs, 12 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   9% ] 1 VUs  1m42.0s/8m0s  012/140 iters, 140 per VU
+
+running (1m43.0s), 1/1 VUs, 12 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   9% ] 1 VUs  1m43.0s/8m0s  012/140 iters, 140 per VU
+
+running (1m44.0s), 1/1 VUs, 12 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   9% ] 1 VUs  1m44.0s/8m0s  012/140 iters, 140 per VU
+
+running (1m45.0s), 1/1 VUs, 13 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   9% ] 1 VUs  1m45.0s/8m0s  013/140 iters, 140 per VU
+time="2026-05-23T18:46:45-05:00" level=info msg="Minute: 1, Iteration: 14, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m46.0s), 1/1 VUs, 13 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   9% ] 1 VUs  1m46.0s/8m0s  013/140 iters, 140 per VU
+
+running (1m47.0s), 1/1 VUs, 13 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   9% ] 1 VUs  1m47.0s/8m0s  013/140 iters, 140 per VU
+
+running (1m48.0s), 1/1 VUs, 13 complete and 0 interrupted iterations
+dynamic_payload_scenario   [   9% ] 1 VUs  1m48.0s/8m0s  013/140 iters, 140 per VU
+time="2026-05-23T18:46:49-05:00" level=info msg="Minute: 1, Iteration: 15, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m49.0s), 1/1 VUs, 14 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  10% ] 1 VUs  1m49.0s/8m0s  014/140 iters, 140 per VU
+
+running (1m50.0s), 1/1 VUs, 14 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  10% ] 1 VUs  1m50.0s/8m0s  014/140 iters, 140 per VU
+
+running (1m51.0s), 1/1 VUs, 14 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  10% ] 1 VUs  1m51.0s/8m0s  014/140 iters, 140 per VU
+time="2026-05-23T18:46:52-05:00" level=info msg="Minute: 1, Iteration: 16, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m52.0s), 1/1 VUs, 15 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  11% ] 1 VUs  1m52.0s/8m0s  015/140 iters, 140 per VU
+
+running (1m53.0s), 1/1 VUs, 15 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  11% ] 1 VUs  1m53.0s/8m0s  015/140 iters, 140 per VU
+
+running (1m54.0s), 1/1 VUs, 15 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  11% ] 1 VUs  1m54.0s/8m0s  015/140 iters, 140 per VU
+
+running (1m55.0s), 1/1 VUs, 16 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  11% ] 1 VUs  1m55.0s/8m0s  016/140 iters, 140 per VU
+time="2026-05-23T18:46:55-05:00" level=info msg="Minute: 1, Iteration: 17, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m56.0s), 1/1 VUs, 16 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  11% ] 1 VUs  1m56.0s/8m0s  016/140 iters, 140 per VU
+
+running (1m57.0s), 1/1 VUs, 16 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  11% ] 1 VUs  1m57.0s/8m0s  016/140 iters, 140 per VU
+
+running (1m58.0s), 1/1 VUs, 16 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  11% ] 1 VUs  1m58.0s/8m0s  016/140 iters, 140 per VU
+time="2026-05-23T18:46:59-05:00" level=info msg="Minute: 1, Iteration: 18, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (1m59.0s), 1/1 VUs, 17 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  12% ] 1 VUs  1m59.0s/8m0s  017/140 iters, 140 per VU
+
+running (2m00.0s), 1/1 VUs, 17 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  12% ] 1 VUs  2m00.0s/8m0s  017/140 iters, 140 per VU
+
+running (2m01.0s), 1/1 VUs, 17 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  12% ] 1 VUs  2m01.0s/8m0s  017/140 iters, 140 per VU
+
+running (2m02.0s), 1/1 VUs, 18 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  13% ] 1 VUs  2m02.0s/8m0s  018/140 iters, 140 per VU
+time="2026-05-23T18:47:02-05:00" level=info msg="Minute: 1, Iteration: 19, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m03.0s), 1/1 VUs, 18 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  13% ] 1 VUs  2m03.0s/8m0s  018/140 iters, 140 per VU
+
+running (2m04.0s), 1/1 VUs, 18 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  13% ] 1 VUs  2m04.0s/8m0s  018/140 iters, 140 per VU
+
+running (2m05.0s), 1/1 VUs, 18 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  13% ] 1 VUs  2m05.0s/8m0s  018/140 iters, 140 per VU
+time="2026-05-23T18:47:06-05:00" level=info msg="Minute: 1, Iteration: 20, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m06.0s), 1/1 VUs, 19 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  14% ] 1 VUs  2m06.0s/8m0s  019/140 iters, 140 per VU
+
+running (2m07.0s), 1/1 VUs, 19 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  14% ] 1 VUs  2m07.0s/8m0s  019/140 iters, 140 per VU
+
+running (2m08.0s), 1/1 VUs, 19 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  14% ] 1 VUs  2m08.0s/8m0s  019/140 iters, 140 per VU
+time="2026-05-23T18:47:09-05:00" level=info msg="Minute: 2, Iteration: 21, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m09.0s), 1/1 VUs, 20 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  14% ] 1 VUs  2m09.0s/8m0s  020/140 iters, 140 per VU
+
+running (2m10.0s), 1/1 VUs, 20 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  14% ] 1 VUs  2m10.0s/8m0s  020/140 iters, 140 per VU
+
+running (2m11.0s), 1/1 VUs, 20 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  14% ] 1 VUs  2m11.0s/8m0s  020/140 iters, 140 per VU
+
+running (2m12.0s), 1/1 VUs, 21 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  15% ] 1 VUs  2m12.0s/8m0s  021/140 iters, 140 per VU
+time="2026-05-23T18:47:12-05:00" level=info msg="Minute: 2, Iteration: 22, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m13.0s), 1/1 VUs, 21 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  15% ] 1 VUs  2m13.0s/8m0s  021/140 iters, 140 per VU
+
+running (2m14.0s), 1/1 VUs, 21 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  15% ] 1 VUs  2m14.0s/8m0s  021/140 iters, 140 per VU
+
+running (2m15.0s), 1/1 VUs, 21 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  15% ] 1 VUs  2m15.0s/8m0s  021/140 iters, 140 per VU
+time="2026-05-23T18:47:16-05:00" level=info msg="Minute: 2, Iteration: 23, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m16.0s), 1/1 VUs, 22 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  16% ] 1 VUs  2m16.0s/8m0s  022/140 iters, 140 per VU
+
+running (2m17.0s), 1/1 VUs, 22 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  16% ] 1 VUs  2m17.0s/8m0s  022/140 iters, 140 per VU
+
+running (2m18.0s), 1/1 VUs, 22 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  16% ] 1 VUs  2m18.0s/8m0s  022/140 iters, 140 per VU
+
+running (2m19.0s), 1/1 VUs, 23 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  16% ] 1 VUs  2m19.0s/8m0s  023/140 iters, 140 per VU
+time="2026-05-23T18:47:19-05:00" level=info msg="Minute: 2, Iteration: 24, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m20.0s), 1/1 VUs, 23 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  16% ] 1 VUs  2m20.0s/8m0s  023/140 iters, 140 per VU
+
+running (2m21.0s), 1/1 VUs, 23 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  16% ] 1 VUs  2m21.0s/8m0s  023/140 iters, 140 per VU
+
+running (2m22.0s), 1/1 VUs, 23 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  16% ] 1 VUs  2m22.0s/8m0s  023/140 iters, 140 per VU
+time="2026-05-23T18:47:23-05:00" level=info msg="Minute: 2, Iteration: 25, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m23.0s), 1/1 VUs, 24 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  17% ] 1 VUs  2m23.0s/8m0s  024/140 iters, 140 per VU
+
+running (2m24.0s), 1/1 VUs, 24 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  17% ] 1 VUs  2m24.0s/8m0s  024/140 iters, 140 per VU
+
+running (2m25.0s), 1/1 VUs, 24 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  17% ] 1 VUs  2m25.0s/8m0s  024/140 iters, 140 per VU
+time="2026-05-23T18:47:26-05:00" level=info msg="Minute: 2, Iteration: 26, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m26.0s), 1/1 VUs, 25 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  18% ] 1 VUs  2m26.0s/8m0s  025/140 iters, 140 per VU
+
+running (2m27.0s), 1/1 VUs, 25 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  18% ] 1 VUs  2m27.0s/8m0s  025/140 iters, 140 per VU
+
+running (2m28.0s), 1/1 VUs, 25 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  18% ] 1 VUs  2m28.0s/8m0s  025/140 iters, 140 per VU
+
+running (2m29.0s), 1/1 VUs, 26 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  19% ] 1 VUs  2m29.0s/8m0s  026/140 iters, 140 per VU
+time="2026-05-23T18:47:29-05:00" level=info msg="Minute: 2, Iteration: 27, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m30.0s), 1/1 VUs, 26 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  19% ] 1 VUs  2m30.0s/8m0s  026/140 iters, 140 per VU
+
+running (2m31.0s), 1/1 VUs, 26 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  19% ] 1 VUs  2m31.0s/8m0s  026/140 iters, 140 per VU
+
+running (2m32.0s), 1/1 VUs, 26 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  19% ] 1 VUs  2m32.0s/8m0s  026/140 iters, 140 per VU
+time="2026-05-23T18:47:33-05:00" level=info msg="Minute: 2, Iteration: 28, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m33.0s), 1/1 VUs, 27 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  19% ] 1 VUs  2m33.0s/8m0s  027/140 iters, 140 per VU
+
+running (2m34.0s), 1/1 VUs, 27 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  19% ] 1 VUs  2m34.0s/8m0s  027/140 iters, 140 per VU
+
+running (2m35.0s), 1/1 VUs, 27 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  19% ] 1 VUs  2m35.0s/8m0s  027/140 iters, 140 per VU
+time="2026-05-23T18:47:36-05:00" level=info msg="Minute: 2, Iteration: 29, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m36.0s), 1/1 VUs, 28 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  20% ] 1 VUs  2m36.0s/8m0s  028/140 iters, 140 per VU
+
+running (2m37.0s), 1/1 VUs, 28 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  20% ] 1 VUs  2m37.0s/8m0s  028/140 iters, 140 per VU
+
+running (2m38.0s), 1/1 VUs, 28 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  20% ] 1 VUs  2m38.0s/8m0s  028/140 iters, 140 per VU
+
+running (2m39.0s), 1/1 VUs, 29 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  21% ] 1 VUs  2m39.0s/8m0s  029/140 iters, 140 per VU
+time="2026-05-23T18:47:39-05:00" level=info msg="Minute: 2, Iteration: 30, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m40.0s), 1/1 VUs, 29 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  21% ] 1 VUs  2m40.0s/8m0s  029/140 iters, 140 per VU
+
+running (2m41.0s), 1/1 VUs, 29 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  21% ] 1 VUs  2m41.0s/8m0s  029/140 iters, 140 per VU
+
+running (2m42.0s), 1/1 VUs, 29 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  21% ] 1 VUs  2m42.0s/8m0s  029/140 iters, 140 per VU
+time="2026-05-23T18:47:43-05:00" level=info msg="Minute: 2, Iteration: 31, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m43.0s), 1/1 VUs, 30 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  21% ] 1 VUs  2m43.0s/8m0s  030/140 iters, 140 per VU
+
+running (2m44.0s), 1/1 VUs, 30 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  21% ] 1 VUs  2m44.0s/8m0s  030/140 iters, 140 per VU
+
+running (2m45.0s), 1/1 VUs, 30 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  21% ] 1 VUs  2m45.0s/8m0s  030/140 iters, 140 per VU
+
+running (2m46.0s), 1/1 VUs, 31 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  22% ] 1 VUs  2m46.0s/8m0s  031/140 iters, 140 per VU
+time="2026-05-23T18:47:46-05:00" level=info msg="Minute: 2, Iteration: 32, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m47.0s), 1/1 VUs, 31 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  22% ] 1 VUs  2m47.0s/8m0s  031/140 iters, 140 per VU
+
+running (2m48.0s), 1/1 VUs, 31 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  22% ] 1 VUs  2m48.0s/8m0s  031/140 iters, 140 per VU
+
+running (2m49.0s), 1/1 VUs, 31 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  22% ] 1 VUs  2m49.0s/8m0s  031/140 iters, 140 per VU
+time="2026-05-23T18:47:49-05:00" level=info msg="Minute: 2, Iteration: 33, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m50.0s), 1/1 VUs, 32 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  23% ] 1 VUs  2m50.0s/8m0s  032/140 iters, 140 per VU
+
+running (2m51.0s), 1/1 VUs, 32 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  23% ] 1 VUs  2m51.0s/8m0s  032/140 iters, 140 per VU
+
+running (2m52.0s), 1/1 VUs, 32 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  23% ] 1 VUs  2m52.0s/8m0s  032/140 iters, 140 per VU
+time="2026-05-23T18:47:53-05:00" level=info msg="Minute: 2, Iteration: 34, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m53.0s), 1/1 VUs, 33 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  24% ] 1 VUs  2m53.0s/8m0s  033/140 iters, 140 per VU
+
+running (2m54.0s), 1/1 VUs, 33 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  24% ] 1 VUs  2m54.0s/8m0s  033/140 iters, 140 per VU
+
+running (2m55.0s), 1/1 VUs, 33 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  24% ] 1 VUs  2m55.0s/8m0s  033/140 iters, 140 per VU
+
+running (2m56.0s), 1/1 VUs, 34 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  24% ] 1 VUs  2m56.0s/8m0s  034/140 iters, 140 per VU
+time="2026-05-23T18:47:56-05:00" level=info msg="Minute: 2, Iteration: 35, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (2m57.0s), 1/1 VUs, 34 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  24% ] 1 VUs  2m57.0s/8m0s  034/140 iters, 140 per VU
+
+running (2m58.0s), 1/1 VUs, 34 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  24% ] 1 VUs  2m58.0s/8m0s  034/140 iters, 140 per VU
+
+running (2m59.0s), 1/1 VUs, 34 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  24% ] 1 VUs  2m59.0s/8m0s  034/140 iters, 140 per VU
+time="2026-05-23T18:47:59-05:00" level=info msg="Minute: 2, Iteration: 36, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (3m00.0s), 1/1 VUs, 35 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  25% ] 1 VUs  3m00.0s/8m0s  035/140 iters, 140 per VU
+
+running (3m01.0s), 1/1 VUs, 35 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  25% ] 1 VUs  3m01.0s/8m0s  035/140 iters, 140 per VU
+
+running (3m02.0s), 1/1 VUs, 35 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  25% ] 1 VUs  3m02.0s/8m0s  035/140 iters, 140 per VU
+
+running (3m03.0s), 1/1 VUs, 36 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  26% ] 1 VUs  3m03.0s/8m0s  036/140 iters, 140 per VU
+time="2026-05-23T18:48:03-05:00" level=info msg="Minute: 2, Iteration: 37, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (3m04.0s), 1/1 VUs, 36 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  26% ] 1 VUs  3m04.0s/8m0s  036/140 iters, 140 per VU
+
+running (3m05.0s), 1/1 VUs, 36 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  26% ] 1 VUs  3m05.0s/8m0s  036/140 iters, 140 per VU
+
+running (3m06.0s), 1/1 VUs, 36 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  26% ] 1 VUs  3m06.0s/8m0s  036/140 iters, 140 per VU
+time="2026-05-23T18:48:07-05:00" level=info msg="Minute: 2, Iteration: 38, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (3m07.0s), 1/1 VUs, 37 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  26% ] 1 VUs  3m07.0s/8m0s  037/140 iters, 140 per VU
+
+running (3m08.0s), 1/1 VUs, 37 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  26% ] 1 VUs  3m08.0s/8m0s  037/140 iters, 140 per VU
+
+running (3m09.0s), 1/1 VUs, 37 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  26% ] 1 VUs  3m09.0s/8m0s  037/140 iters, 140 per VU
+
+running (3m10.0s), 1/1 VUs, 38 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  27% ] 1 VUs  3m10.0s/8m0s  038/140 iters, 140 per VU
+time="2026-05-23T18:48:10-05:00" level=info msg="Minute: 2, Iteration: 39, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (3m11.0s), 1/1 VUs, 38 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  27% ] 1 VUs  3m11.0s/8m0s  038/140 iters, 140 per VU
+
+running (3m12.0s), 1/1 VUs, 38 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  27% ] 1 VUs  3m12.0s/8m0s  038/140 iters, 140 per VU
+
+running (3m13.0s), 1/1 VUs, 38 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  27% ] 1 VUs  3m13.0s/8m0s  038/140 iters, 140 per VU
+time="2026-05-23T18:48:14-05:00" level=info msg="Minute: 2, Iteration: 40, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (3m14.0s), 1/1 VUs, 39 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  28% ] 1 VUs  3m14.0s/8m0s  039/140 iters, 140 per VU
+
+running (3m15.0s), 1/1 VUs, 39 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  28% ] 1 VUs  3m15.0s/8m0s  039/140 iters, 140 per VU
+
+running (3m16.0s), 1/1 VUs, 39 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  28% ] 1 VUs  3m16.0s/8m0s  039/140 iters, 140 per VU
+
+running (3m17.0s), 1/1 VUs, 40 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  29% ] 1 VUs  3m17.0s/8m0s  040/140 iters, 140 per VU
+time="2026-05-23T18:48:17-05:00" level=info msg="Minute: 3, Iteration: 41, Error: true, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (3m18.0s), 1/1 VUs, 40 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  29% ] 1 VUs  3m18.0s/8m0s  040/140 iters, 140 per VU
+
+running (3m19.0s), 1/1 VUs, 40 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  29% ] 1 VUs  3m19.0s/8m0s  040/140 iters, 140 per VU
+
+running (3m20.0s), 1/1 VUs, 40 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  29% ] 1 VUs  3m20.0s/8m0s  040/140 iters, 140 per VU
+time="2026-05-23T18:48:21-05:00" level=info msg="Minute: 3, Iteration: 42, Error: true, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (3m21.0s), 1/1 VUs, 41 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  29% ] 1 VUs  3m21.0s/8m0s  041/140 iters, 140 per VU
+
+running (3m22.0s), 1/1 VUs, 41 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  29% ] 1 VUs  3m22.0s/8m0s  041/140 iters, 140 per VU
+
+running (3m23.0s), 1/1 VUs, 41 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  29% ] 1 VUs  3m23.0s/8m0s  041/140 iters, 140 per VU
+
+running (3m24.0s), 1/1 VUs, 42 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  30% ] 1 VUs  3m24.0s/8m0s  042/140 iters, 140 per VU
+time="2026-05-23T18:48:24-05:00" level=info msg="Minute: 3, Iteration: 43, Error: true, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (3m25.0s), 1/1 VUs, 42 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  30% ] 1 VUs  3m25.0s/8m0s  042/140 iters, 140 per VU
+
+running (3m26.0s), 1/1 VUs, 42 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  30% ] 1 VUs  3m26.0s/8m0s  042/140 iters, 140 per VU
+
+running (3m27.0s), 1/1 VUs, 42 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  30% ] 1 VUs  3m27.0s/8m0s  042/140 iters, 140 per VU
+time="2026-05-23T18:48:28-05:00" level=info msg="Minute: 3, Iteration: 44, Error: true, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (3m28.0s), 1/1 VUs, 43 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  31% ] 1 VUs  3m28.0s/8m0s  043/140 iters, 140 per VU
+
+running (3m29.0s), 1/1 VUs, 43 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  31% ] 1 VUs  3m29.0s/8m0s  043/140 iters, 140 per VU
+
+running (3m30.0s), 1/1 VUs, 43 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  31% ] 1 VUs  3m30.0s/8m0s  043/140 iters, 140 per VU
+
+running (3m31.0s), 1/1 VUs, 44 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  31% ] 1 VUs  3m31.0s/8m0s  044/140 iters, 140 per VU
+time="2026-05-23T18:48:31-05:00" level=info msg="Minute: 3, Iteration: 45, Error: true, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (3m32.0s), 1/1 VUs, 44 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  31% ] 1 VUs  3m32.0s/8m0s  044/140 iters, 140 per VU
+
+running (3m33.0s), 1/1 VUs, 44 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  31% ] 1 VUs  3m33.0s/8m0s  044/140 iters, 140 per VU
+
+running (3m34.0s), 1/1 VUs, 44 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  31% ] 1 VUs  3m34.0s/8m0s  044/140 iters, 140 per VU
+time="2026-05-23T18:48:35-05:00" level=info msg="Minute: 3, Iteration: 46, Error: true, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (3m35.0s), 1/1 VUs, 45 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  32% ] 1 VUs  3m35.0s/8m0s  045/140 iters, 140 per VU
+
+running (3m36.0s), 1/1 VUs, 45 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  32% ] 1 VUs  3m36.0s/8m0s  045/140 iters, 140 per VU
+
+running (3m37.0s), 1/1 VUs, 45 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  32% ] 1 VUs  3m37.0s/8m0s  045/140 iters, 140 per VU
+
+running (3m38.0s), 1/1 VUs, 46 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  33% ] 1 VUs  3m38.0s/8m0s  046/140 iters, 140 per VU
+time="2026-05-23T18:48:38-05:00" level=info msg="Minute: 3, Iteration: 47, Error: true, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (3m39.0s), 1/1 VUs, 46 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  33% ] 1 VUs  3m39.0s/8m0s  046/140 iters, 140 per VU
+
+running (3m40.0s), 1/1 VUs, 46 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  33% ] 1 VUs  3m40.0s/8m0s  046/140 iters, 140 per VU
+
+running (3m41.0s), 1/1 VUs, 46 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  33% ] 1 VUs  3m41.0s/8m0s  046/140 iters, 140 per VU
+time="2026-05-23T18:48:42-05:00" level=info msg="Minute: 3, Iteration: 48, Error: true, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (3m42.0s), 1/1 VUs, 47 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  34% ] 1 VUs  3m42.0s/8m0s  047/140 iters, 140 per VU
+
+running (3m43.0s), 1/1 VUs, 47 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  34% ] 1 VUs  3m43.0s/8m0s  047/140 iters, 140 per VU
+
+running (3m44.0s), 1/1 VUs, 47 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  34% ] 1 VUs  3m44.0s/8m0s  047/140 iters, 140 per VU
+
+running (3m45.0s), 1/1 VUs, 48 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  34% ] 1 VUs  3m45.0s/8m0s  048/140 iters, 140 per VU
+time="2026-05-23T18:48:45-05:00" level=info msg="Minute: 3, Iteration: 49, Error: true, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (3m46.0s), 1/1 VUs, 48 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  34% ] 1 VUs  3m46.0s/8m0s  048/140 iters, 140 per VU
+
+running (3m47.0s), 1/1 VUs, 48 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  34% ] 1 VUs  3m47.0s/8m0s  048/140 iters, 140 per VU
+
+running (3m48.0s), 1/1 VUs, 48 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  34% ] 1 VUs  3m48.0s/8m0s  048/140 iters, 140 per VU
+time="2026-05-23T18:48:49-05:00" level=info msg="Minute: 3, Iteration: 50, Error: true, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (3m49.0s), 1/1 VUs, 49 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  35% ] 1 VUs  3m49.0s/8m0s  049/140 iters, 140 per VU
+
+running (3m50.0s), 1/1 VUs, 49 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  35% ] 1 VUs  3m50.0s/8m0s  049/140 iters, 140 per VU
+
+running (3m51.0s), 1/1 VUs, 49 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  35% ] 1 VUs  3m51.0s/8m0s  049/140 iters, 140 per VU
+
+running (3m52.0s), 1/1 VUs, 50 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  36% ] 1 VUs  3m52.0s/8m0s  050/140 iters, 140 per VU
+time="2026-05-23T18:48:52-05:00" level=info msg="Minute: 3, Iteration: 51, Error: true, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (3m53.0s), 1/1 VUs, 50 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  36% ] 1 VUs  3m53.0s/8m0s  050/140 iters, 140 per VU
+
+running (3m54.0s), 1/1 VUs, 50 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  36% ] 1 VUs  3m54.0s/8m0s  050/140 iters, 140 per VU
+
+running (3m55.0s), 1/1 VUs, 50 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  36% ] 1 VUs  3m55.0s/8m0s  050/140 iters, 140 per VU
+time="2026-05-23T18:48:55-05:00" level=info msg="Minute: 3, Iteration: 52, Error: true, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (3m56.0s), 1/1 VUs, 51 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  36% ] 1 VUs  3m56.0s/8m0s  051/140 iters, 140 per VU
+
+running (3m57.0s), 1/1 VUs, 51 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  36% ] 1 VUs  3m57.0s/8m0s  051/140 iters, 140 per VU
+
+running (3m58.0s), 1/1 VUs, 51 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  36% ] 1 VUs  3m58.0s/8m0s  051/140 iters, 140 per VU
+time="2026-05-23T18:48:59-05:00" level=info msg="Minute: 3, Iteration: 53, Error: true, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (3m59.0s), 1/1 VUs, 52 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  37% ] 1 VUs  3m59.0s/8m0s  052/140 iters, 140 per VU
+
+running (4m00.0s), 1/1 VUs, 52 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  37% ] 1 VUs  4m00.0s/8m0s  052/140 iters, 140 per VU
+
+running (4m01.0s), 1/1 VUs, 52 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  37% ] 1 VUs  4m01.0s/8m0s  052/140 iters, 140 per VU
+
+running (4m02.0s), 1/1 VUs, 53 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  38% ] 1 VUs  4m02.0s/8m0s  053/140 iters, 140 per VU
+time="2026-05-23T18:49:02-05:00" level=info msg="Minute: 3, Iteration: 54, Error: true, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m03.0s), 1/1 VUs, 53 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  38% ] 1 VUs  4m03.0s/8m0s  053/140 iters, 140 per VU
+
+running (4m04.0s), 1/1 VUs, 53 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  38% ] 1 VUs  4m04.0s/8m0s  053/140 iters, 140 per VU
+
+running (4m05.0s), 1/1 VUs, 53 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  38% ] 1 VUs  4m05.0s/8m0s  053/140 iters, 140 per VU
+time="2026-05-23T18:49:06-05:00" level=info msg="Minute: 3, Iteration: 55, Error: true, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m06.0s), 1/1 VUs, 54 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  39% ] 1 VUs  4m06.0s/8m0s  054/140 iters, 140 per VU
+
+running (4m07.0s), 1/1 VUs, 54 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  39% ] 1 VUs  4m07.0s/8m0s  054/140 iters, 140 per VU
+
+running (4m08.0s), 1/1 VUs, 54 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  39% ] 1 VUs  4m08.0s/8m0s  054/140 iters, 140 per VU
+
+running (4m09.0s), 1/1 VUs, 55 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  39% ] 1 VUs  4m09.0s/8m0s  055/140 iters, 140 per VU
+time="2026-05-23T18:49:09-05:00" level=info msg="Minute: 3, Iteration: 56, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m10.0s), 1/1 VUs, 55 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  39% ] 1 VUs  4m10.0s/8m0s  055/140 iters, 140 per VU
+
+running (4m11.0s), 1/1 VUs, 55 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  39% ] 1 VUs  4m11.0s/8m0s  055/140 iters, 140 per VU
+
+running (4m12.0s), 1/1 VUs, 55 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  39% ] 1 VUs  4m12.0s/8m0s  055/140 iters, 140 per VU
+time="2026-05-23T18:49:12-05:00" level=info msg="Minute: 3, Iteration: 57, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m13.0s), 1/1 VUs, 56 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  40% ] 1 VUs  4m13.0s/8m0s  056/140 iters, 140 per VU
+
+running (4m14.0s), 1/1 VUs, 56 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  40% ] 1 VUs  4m14.0s/8m0s  056/140 iters, 140 per VU
+
+running (4m15.0s), 1/1 VUs, 56 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  40% ] 1 VUs  4m15.0s/8m0s  056/140 iters, 140 per VU
+time="2026-05-23T18:49:16-05:00" level=info msg="Minute: 3, Iteration: 58, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m16.0s), 1/1 VUs, 57 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  41% ] 1 VUs  4m16.0s/8m0s  057/140 iters, 140 per VU
+
+running (4m17.0s), 1/1 VUs, 57 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  41% ] 1 VUs  4m17.0s/8m0s  057/140 iters, 140 per VU
+
+running (4m18.0s), 1/1 VUs, 57 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  41% ] 1 VUs  4m18.0s/8m0s  057/140 iters, 140 per VU
+
+running (4m19.0s), 1/1 VUs, 58 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  41% ] 1 VUs  4m19.0s/8m0s  058/140 iters, 140 per VU
+time="2026-05-23T18:49:19-05:00" level=info msg="Minute: 3, Iteration: 59, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m20.0s), 1/1 VUs, 58 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  41% ] 1 VUs  4m20.0s/8m0s  058/140 iters, 140 per VU
+
+running (4m21.0s), 1/1 VUs, 58 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  41% ] 1 VUs  4m21.0s/8m0s  058/140 iters, 140 per VU
+
+running (4m22.0s), 1/1 VUs, 58 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  41% ] 1 VUs  4m22.0s/8m0s  058/140 iters, 140 per VU
+time="2026-05-23T18:49:23-05:00" level=info msg="Minute: 3, Iteration: 60, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m23.0s), 1/1 VUs, 59 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  42% ] 1 VUs  4m23.0s/8m0s  059/140 iters, 140 per VU
+
+running (4m24.0s), 1/1 VUs, 59 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  42% ] 1 VUs  4m24.0s/8m0s  059/140 iters, 140 per VU
+
+running (4m25.0s), 1/1 VUs, 59 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  42% ] 1 VUs  4m25.0s/8m0s  059/140 iters, 140 per VU
+
+running (4m26.0s), 1/1 VUs, 60 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  43% ] 1 VUs  4m26.0s/8m0s  060/140 iters, 140 per VU
+time="2026-05-23T18:49:26-05:00" level=info msg="Minute: 4, Iteration: 61, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m27.0s), 1/1 VUs, 60 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  43% ] 1 VUs  4m27.0s/8m0s  060/140 iters, 140 per VU
+
+running (4m28.0s), 1/1 VUs, 60 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  43% ] 1 VUs  4m28.0s/8m0s  060/140 iters, 140 per VU
+
+running (4m29.0s), 1/1 VUs, 60 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  43% ] 1 VUs  4m29.0s/8m0s  060/140 iters, 140 per VU
+time="2026-05-23T18:49:29-05:00" level=info msg="Minute: 4, Iteration: 62, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m30.0s), 1/1 VUs, 61 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  44% ] 1 VUs  4m30.0s/8m0s  061/140 iters, 140 per VU
+
+running (4m31.0s), 1/1 VUs, 61 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  44% ] 1 VUs  4m31.0s/8m0s  061/140 iters, 140 per VU
+
+running (4m32.0s), 1/1 VUs, 61 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  44% ] 1 VUs  4m32.0s/8m0s  061/140 iters, 140 per VU
+time="2026-05-23T18:49:33-05:00" level=info msg="Minute: 4, Iteration: 63, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m33.0s), 1/1 VUs, 62 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  44% ] 1 VUs  4m33.0s/8m0s  062/140 iters, 140 per VU
+
+running (4m34.0s), 1/1 VUs, 62 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  44% ] 1 VUs  4m34.0s/8m0s  062/140 iters, 140 per VU
+
+running (4m35.0s), 1/1 VUs, 62 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  44% ] 1 VUs  4m35.0s/8m0s  062/140 iters, 140 per VU
+
+running (4m36.0s), 1/1 VUs, 63 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  45% ] 1 VUs  4m36.0s/8m0s  063/140 iters, 140 per VU
+time="2026-05-23T18:49:36-05:00" level=info msg="Minute: 4, Iteration: 64, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m37.0s), 1/1 VUs, 63 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  45% ] 1 VUs  4m37.0s/8m0s  063/140 iters, 140 per VU
+
+running (4m38.0s), 1/1 VUs, 63 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  45% ] 1 VUs  4m38.0s/8m0s  063/140 iters, 140 per VU
+
+running (4m39.0s), 1/1 VUs, 63 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  45% ] 1 VUs  4m39.0s/8m0s  063/140 iters, 140 per VU
+time="2026-05-23T18:49:40-05:00" level=info msg="Minute: 4, Iteration: 65, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m40.0s), 1/1 VUs, 64 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  46% ] 1 VUs  4m40.0s/8m0s  064/140 iters, 140 per VU
+
+running (4m41.0s), 1/1 VUs, 64 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  46% ] 1 VUs  4m41.0s/8m0s  064/140 iters, 140 per VU
+
+running (4m42.0s), 1/1 VUs, 64 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  46% ] 1 VUs  4m42.0s/8m0s  064/140 iters, 140 per VU
+
+running (4m43.0s), 1/1 VUs, 65 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  46% ] 1 VUs  4m43.0s/8m0s  065/140 iters, 140 per VU
+time="2026-05-23T18:49:43-05:00" level=info msg="Minute: 4, Iteration: 66, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m44.0s), 1/1 VUs, 65 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  46% ] 1 VUs  4m44.0s/8m0s  065/140 iters, 140 per VU
+
+running (4m45.0s), 1/1 VUs, 65 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  46% ] 1 VUs  4m45.0s/8m0s  065/140 iters, 140 per VU
+
+running (4m46.0s), 1/1 VUs, 65 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  46% ] 1 VUs  4m46.0s/8m0s  065/140 iters, 140 per VU
+time="2026-05-23T18:49:46-05:00" level=info msg="Minute: 4, Iteration: 67, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m47.0s), 1/1 VUs, 66 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  47% ] 1 VUs  4m47.0s/8m0s  066/140 iters, 140 per VU
+
+running (4m48.0s), 1/1 VUs, 66 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  47% ] 1 VUs  4m48.0s/8m0s  066/140 iters, 140 per VU
+
+running (4m49.0s), 1/1 VUs, 66 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  47% ] 1 VUs  4m49.0s/8m0s  066/140 iters, 140 per VU
+
+running (4m50.0s), 1/1 VUs, 67 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  48% ] 1 VUs  4m50.0s/8m0s  067/140 iters, 140 per VU
+time="2026-05-23T18:49:50-05:00" level=info msg="Minute: 4, Iteration: 68, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m51.0s), 1/1 VUs, 67 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  48% ] 1 VUs  4m51.0s/8m0s  067/140 iters, 140 per VU
+
+running (4m52.0s), 1/1 VUs, 67 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  48% ] 1 VUs  4m52.0s/8m0s  067/140 iters, 140 per VU
+
+running (4m53.0s), 1/1 VUs, 67 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  48% ] 1 VUs  4m53.0s/8m0s  067/140 iters, 140 per VU
+time="2026-05-23T18:49:53-05:00" level=info msg="Minute: 4, Iteration: 69, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m54.0s), 1/1 VUs, 68 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  49% ] 1 VUs  4m54.0s/8m0s  068/140 iters, 140 per VU
+
+running (4m55.0s), 1/1 VUs, 68 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  49% ] 1 VUs  4m55.0s/8m0s  068/140 iters, 140 per VU
+
+running (4m56.0s), 1/1 VUs, 68 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  49% ] 1 VUs  4m56.0s/8m0s  068/140 iters, 140 per VU
+time="2026-05-23T18:49:57-05:00" level=info msg="Minute: 4, Iteration: 70, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (4m57.0s), 1/1 VUs, 69 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  49% ] 1 VUs  4m57.0s/8m0s  069/140 iters, 140 per VU
+
+running (4m58.0s), 1/1 VUs, 69 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  49% ] 1 VUs  4m58.0s/8m0s  069/140 iters, 140 per VU
+
+running (4m59.0s), 1/1 VUs, 69 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  49% ] 1 VUs  4m59.0s/8m0s  069/140 iters, 140 per VU
+
+running (5m00.0s), 1/1 VUs, 70 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  50% ] 1 VUs  5m00.0s/8m0s  070/140 iters, 140 per VU
+time="2026-05-23T18:50:00-05:00" level=info msg="Minute: 4, Iteration: 71, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (5m01.0s), 1/1 VUs, 70 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  50% ] 1 VUs  5m01.0s/8m0s  070/140 iters, 140 per VU
+
+running (5m02.0s), 1/1 VUs, 70 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  50% ] 1 VUs  5m02.0s/8m0s  070/140 iters, 140 per VU
+
+running (5m03.0s), 1/1 VUs, 70 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  50% ] 1 VUs  5m03.0s/8m0s  070/140 iters, 140 per VU
+time="2026-05-23T18:50:04-05:00" level=info msg="Minute: 4, Iteration: 72, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (5m04.0s), 1/1 VUs, 71 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  51% ] 1 VUs  5m04.0s/8m0s  071/140 iters, 140 per VU
+
+running (5m05.0s), 1/1 VUs, 71 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  51% ] 1 VUs  5m05.0s/8m0s  071/140 iters, 140 per VU
+
+running (5m06.0s), 1/1 VUs, 71 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  51% ] 1 VUs  5m06.0s/8m0s  071/140 iters, 140 per VU
+time="2026-05-23T18:50:07-05:00" level=info msg="Minute: 4, Iteration: 73, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (5m07.0s), 1/1 VUs, 72 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  51% ] 1 VUs  5m07.0s/8m0s  072/140 iters, 140 per VU
+
+running (5m08.0s), 1/1 VUs, 72 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  51% ] 1 VUs  5m08.0s/8m0s  072/140 iters, 140 per VU
+
+running (5m09.0s), 1/1 VUs, 72 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  51% ] 1 VUs  5m09.0s/8m0s  072/140 iters, 140 per VU
+
+running (5m10.0s), 1/1 VUs, 73 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  52% ] 1 VUs  5m10.0s/8m0s  073/140 iters, 140 per VU
+time="2026-05-23T18:50:10-05:00" level=info msg="Minute: 4, Iteration: 74, Error: false, Status: 200, Message: {\"message\":\"Nivel 3: Operación al mínimo\",\"level\":3}" source=console
+
+running (5m11.0s), 1/1 VUs, 73 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  52% ] 1 VUs  5m11.0s/8m0s  073/140 iters, 140 per VU
+
+running (5m12.0s), 1/1 VUs, 73 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  52% ] 1 VUs  5m12.0s/8m0s  073/140 iters, 140 per VU
+
+running (5m13.0s), 1/1 VUs, 73 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  52% ] 1 VUs  5m13.0s/8m0s  073/140 iters, 140 per VU
+time="2026-05-23T18:50:14-05:00" level=info msg="Minute: 4, Iteration: 75, Error: false, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (5m14.0s), 1/1 VUs, 74 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  53% ] 1 VUs  5m14.0s/8m0s  074/140 iters, 140 per VU
+
+running (5m15.0s), 1/1 VUs, 74 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  53% ] 1 VUs  5m15.0s/8m0s  074/140 iters, 140 per VU
+
+running (5m16.0s), 1/1 VUs, 74 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  53% ] 1 VUs  5m16.0s/8m0s  074/140 iters, 140 per VU
+
+running (5m17.0s), 1/1 VUs, 75 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  54% ] 1 VUs  5m17.0s/8m0s  075/140 iters, 140 per VU
+time="2026-05-23T18:50:17-05:00" level=info msg="Minute: 4, Iteration: 76, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (5m18.0s), 1/1 VUs, 75 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  54% ] 1 VUs  5m18.0s/8m0s  075/140 iters, 140 per VU
+
+running (5m19.0s), 1/1 VUs, 75 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  54% ] 1 VUs  5m19.0s/8m0s  075/140 iters, 140 per VU
+
+running (5m20.0s), 1/1 VUs, 75 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  54% ] 1 VUs  5m20.0s/8m0s  075/140 iters, 140 per VU
+time="2026-05-23T18:50:21-05:00" level=info msg="Minute: 4, Iteration: 77, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (5m21.0s), 1/1 VUs, 76 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  54% ] 1 VUs  5m21.0s/8m0s  076/140 iters, 140 per VU
+
+running (5m22.0s), 1/1 VUs, 76 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  54% ] 1 VUs  5m22.0s/8m0s  076/140 iters, 140 per VU
+
+running (5m23.0s), 1/1 VUs, 76 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  54% ] 1 VUs  5m23.0s/8m0s  076/140 iters, 140 per VU
+
+running (5m24.0s), 1/1 VUs, 77 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  55% ] 1 VUs  5m24.0s/8m0s  077/140 iters, 140 per VU
+time="2026-05-23T18:50:24-05:00" level=info msg="Minute: 4, Iteration: 78, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (5m25.0s), 1/1 VUs, 77 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  55% ] 1 VUs  5m25.0s/8m0s  077/140 iters, 140 per VU
+
+running (5m26.0s), 1/1 VUs, 77 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  55% ] 1 VUs  5m26.0s/8m0s  077/140 iters, 140 per VU
+
+running (5m27.0s), 1/1 VUs, 77 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  55% ] 1 VUs  5m27.0s/8m0s  077/140 iters, 140 per VU
+time="2026-05-23T18:50:28-05:00" level=info msg="Minute: 4, Iteration: 79, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (5m28.0s), 1/1 VUs, 78 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  56% ] 1 VUs  5m28.0s/8m0s  078/140 iters, 140 per VU
+
+running (5m29.0s), 1/1 VUs, 78 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  56% ] 1 VUs  5m29.0s/8m0s  078/140 iters, 140 per VU
+
+running (5m30.0s), 1/1 VUs, 78 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  56% ] 1 VUs  5m30.0s/8m0s  078/140 iters, 140 per VU
+
+running (5m31.0s), 1/1 VUs, 79 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  56% ] 1 VUs  5m31.0s/8m0s  079/140 iters, 140 per VU
+time="2026-05-23T18:50:31-05:00" level=info msg="Minute: 4, Iteration: 80, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (5m32.0s), 1/1 VUs, 79 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  56% ] 1 VUs  5m32.0s/8m0s  079/140 iters, 140 per VU
+
+running (5m33.0s), 1/1 VUs, 79 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  56% ] 1 VUs  5m33.0s/8m0s  079/140 iters, 140 per VU
+
+running (5m34.0s), 1/1 VUs, 79 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  56% ] 1 VUs  5m34.0s/8m0s  079/140 iters, 140 per VU
+time="2026-05-23T18:50:34-05:00" level=info msg="Minute: 5, Iteration: 81, Error: true, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (5m35.0s), 1/1 VUs, 80 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  57% ] 1 VUs  5m35.0s/8m0s  080/140 iters, 140 per VU
+
+running (5m36.0s), 1/1 VUs, 80 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  57% ] 1 VUs  5m36.0s/8m0s  080/140 iters, 140 per VU
+
+running (5m37.0s), 1/1 VUs, 80 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  57% ] 1 VUs  5m37.0s/8m0s  080/140 iters, 140 per VU
+time="2026-05-23T18:50:38-05:00" level=info msg="Minute: 5, Iteration: 82, Error: true, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (5m38.0s), 1/1 VUs, 81 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  58% ] 1 VUs  5m38.0s/8m0s  081/140 iters, 140 per VU
+
+running (5m39.0s), 1/1 VUs, 81 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  58% ] 1 VUs  5m39.0s/8m0s  081/140 iters, 140 per VU
+
+running (5m40.0s), 1/1 VUs, 81 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  58% ] 1 VUs  5m40.0s/8m0s  081/140 iters, 140 per VU
+
+running (5m41.0s), 1/1 VUs, 82 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  59% ] 1 VUs  5m41.0s/8m0s  082/140 iters, 140 per VU
+time="2026-05-23T18:50:41-05:00" level=info msg="Minute: 5, Iteration: 83, Error: true, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (5m42.0s), 1/1 VUs, 82 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  59% ] 1 VUs  5m42.0s/8m0s  082/140 iters, 140 per VU
+
+running (5m43.0s), 1/1 VUs, 82 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  59% ] 1 VUs  5m43.0s/8m0s  082/140 iters, 140 per VU
+
+running (5m44.0s), 1/1 VUs, 82 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  59% ] 1 VUs  5m44.0s/8m0s  082/140 iters, 140 per VU
+time="2026-05-23T18:50:45-05:00" level=info msg="Minute: 5, Iteration: 84, Error: true, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (5m45.0s), 1/1 VUs, 83 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  59% ] 1 VUs  5m45.0s/8m0s  083/140 iters, 140 per VU
+
+running (5m46.0s), 1/1 VUs, 83 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  59% ] 1 VUs  5m46.0s/8m0s  083/140 iters, 140 per VU
+
+running (5m47.0s), 1/1 VUs, 83 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  59% ] 1 VUs  5m47.0s/8m0s  083/140 iters, 140 per VU
+
+running (5m48.0s), 1/1 VUs, 84 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  60% ] 1 VUs  5m48.0s/8m0s  084/140 iters, 140 per VU
+time="2026-05-23T18:50:48-05:00" level=info msg="Minute: 5, Iteration: 85, Error: true, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (5m49.0s), 1/1 VUs, 84 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  60% ] 1 VUs  5m49.0s/8m0s  084/140 iters, 140 per VU
+
+running (5m50.0s), 1/1 VUs, 84 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  60% ] 1 VUs  5m50.0s/8m0s  084/140 iters, 140 per VU
+
+running (5m51.0s), 1/1 VUs, 84 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  60% ] 1 VUs  5m51.0s/8m0s  084/140 iters, 140 per VU
+time="2026-05-23T18:50:52-05:00" level=info msg="Minute: 5, Iteration: 86, Error: true, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (5m52.0s), 1/1 VUs, 85 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  61% ] 1 VUs  5m52.0s/8m0s  085/140 iters, 140 per VU
+
+running (5m53.0s), 1/1 VUs, 85 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  61% ] 1 VUs  5m53.0s/8m0s  085/140 iters, 140 per VU
+
+running (5m54.0s), 1/1 VUs, 85 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  61% ] 1 VUs  5m54.0s/8m0s  085/140 iters, 140 per VU
+
+running (5m55.0s), 1/1 VUs, 86 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  61% ] 1 VUs  5m55.0s/8m0s  086/140 iters, 140 per VU
+time="2026-05-23T18:50:55-05:00" level=info msg="Minute: 5, Iteration: 87, Error: true, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (5m56.0s), 1/1 VUs, 86 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  61% ] 1 VUs  5m56.0s/8m0s  086/140 iters, 140 per VU
+
+running (5m57.0s), 1/1 VUs, 86 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  61% ] 1 VUs  5m57.0s/8m0s  086/140 iters, 140 per VU
+
+running (5m58.0s), 1/1 VUs, 86 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  61% ] 1 VUs  5m58.0s/8m0s  086/140 iters, 140 per VU
+time="2026-05-23T18:50:58-05:00" level=info msg="Minute: 5, Iteration: 88, Error: true, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (5m59.0s), 1/1 VUs, 87 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  62% ] 1 VUs  5m59.0s/8m0s  087/140 iters, 140 per VU
+
+running (6m00.0s), 1/1 VUs, 87 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  62% ] 1 VUs  6m00.0s/8m0s  087/140 iters, 140 per VU
+
+running (6m01.0s), 1/1 VUs, 87 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  62% ] 1 VUs  6m01.0s/8m0s  087/140 iters, 140 per VU
+time="2026-05-23T18:51:02-05:00" level=info msg="Minute: 5, Iteration: 89, Error: true, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m02.0s), 1/1 VUs, 88 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  63% ] 1 VUs  6m02.0s/8m0s  088/140 iters, 140 per VU
+
+running (6m03.0s), 1/1 VUs, 88 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  63% ] 1 VUs  6m03.0s/8m0s  088/140 iters, 140 per VU
+
+running (6m04.0s), 1/1 VUs, 88 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  63% ] 1 VUs  6m04.0s/8m0s  088/140 iters, 140 per VU
+
+running (6m05.0s), 1/1 VUs, 89 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  64% ] 1 VUs  6m05.0s/8m0s  089/140 iters, 140 per VU
+time="2026-05-23T18:51:05-05:00" level=info msg="Minute: 5, Iteration: 90, Error: true, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m06.0s), 1/1 VUs, 89 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  64% ] 1 VUs  6m06.0s/8m0s  089/140 iters, 140 per VU
+
+running (6m07.0s), 1/1 VUs, 89 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  64% ] 1 VUs  6m07.0s/8m0s  089/140 iters, 140 per VU
+
+running (6m08.0s), 1/1 VUs, 89 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  64% ] 1 VUs  6m08.0s/8m0s  089/140 iters, 140 per VU
+time="2026-05-23T18:51:09-05:00" level=info msg="Minute: 5, Iteration: 91, Error: true, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m09.0s), 1/1 VUs, 90 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  64% ] 1 VUs  6m09.0s/8m0s  090/140 iters, 140 per VU
+
+running (6m10.0s), 1/1 VUs, 90 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  64% ] 1 VUs  6m10.0s/8m0s  090/140 iters, 140 per VU
+
+running (6m11.0s), 1/1 VUs, 90 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  64% ] 1 VUs  6m11.0s/8m0s  090/140 iters, 140 per VU
+
+running (6m12.0s), 1/1 VUs, 91 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  65% ] 1 VUs  6m12.0s/8m0s  091/140 iters, 140 per VU
+time="2026-05-23T18:51:12-05:00" level=info msg="Minute: 5, Iteration: 92, Error: true, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m13.0s), 1/1 VUs, 91 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  65% ] 1 VUs  6m13.0s/8m0s  091/140 iters, 140 per VU
+
+running (6m14.0s), 1/1 VUs, 91 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  65% ] 1 VUs  6m14.0s/8m0s  091/140 iters, 140 per VU
+
+running (6m15.0s), 1/1 VUs, 91 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  65% ] 1 VUs  6m15.0s/8m0s  091/140 iters, 140 per VU
+time="2026-05-23T18:51:16-05:00" level=info msg="Minute: 5, Iteration: 93, Error: true, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m16.0s), 1/1 VUs, 92 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  66% ] 1 VUs  6m16.0s/8m0s  092/140 iters, 140 per VU
+
+running (6m17.0s), 1/1 VUs, 92 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  66% ] 1 VUs  6m17.0s/8m0s  092/140 iters, 140 per VU
+
+running (6m18.0s), 1/1 VUs, 92 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  66% ] 1 VUs  6m18.0s/8m0s  092/140 iters, 140 per VU
+
+running (6m19.0s), 1/1 VUs, 93 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  66% ] 1 VUs  6m19.0s/8m0s  093/140 iters, 140 per VU
+time="2026-05-23T18:51:19-05:00" level=info msg="Minute: 5, Iteration: 94, Error: true, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m20.0s), 1/1 VUs, 93 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  66% ] 1 VUs  6m20.0s/8m0s  093/140 iters, 140 per VU
+
+running (6m21.0s), 1/1 VUs, 93 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  66% ] 1 VUs  6m21.0s/8m0s  093/140 iters, 140 per VU
+
+running (6m22.0s), 1/1 VUs, 93 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  66% ] 1 VUs  6m22.0s/8m0s  093/140 iters, 140 per VU
+time="2026-05-23T18:51:23-05:00" level=info msg="Minute: 5, Iteration: 95, Error: true, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m23.0s), 1/1 VUs, 94 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  67% ] 1 VUs  6m23.0s/8m0s  094/140 iters, 140 per VU
+
+running (6m24.0s), 1/1 VUs, 94 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  67% ] 1 VUs  6m24.0s/8m0s  094/140 iters, 140 per VU
+
+running (6m25.0s), 1/1 VUs, 94 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  67% ] 1 VUs  6m25.0s/8m0s  094/140 iters, 140 per VU
+
+running (6m26.0s), 1/1 VUs, 95 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  68% ] 1 VUs  6m26.0s/8m0s  095/140 iters, 140 per VU
+time="2026-05-23T18:51:26-05:00" level=info msg="Minute: 5, Iteration: 96, Error: false, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m27.0s), 1/1 VUs, 95 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  68% ] 1 VUs  6m27.0s/8m0s  095/140 iters, 140 per VU
+
+running (6m28.0s), 1/1 VUs, 95 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  68% ] 1 VUs  6m28.0s/8m0s  095/140 iters, 140 per VU
+
+running (6m29.0s), 1/1 VUs, 95 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  68% ] 1 VUs  6m29.0s/8m0s  095/140 iters, 140 per VU
+time="2026-05-23T18:51:29-05:00" level=info msg="Minute: 5, Iteration: 97, Error: false, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m30.0s), 1/1 VUs, 96 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  69% ] 1 VUs  6m30.0s/8m0s  096/140 iters, 140 per VU
+
+running (6m31.0s), 1/1 VUs, 96 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  69% ] 1 VUs  6m31.0s/8m0s  096/140 iters, 140 per VU
+
+running (6m32.0s), 1/1 VUs, 96 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  69% ] 1 VUs  6m32.0s/8m0s  096/140 iters, 140 per VU
+time="2026-05-23T18:51:33-05:00" level=info msg="Minute: 5, Iteration: 98, Error: false, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m33.0s), 1/1 VUs, 97 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  69% ] 1 VUs  6m33.0s/8m0s  097/140 iters, 140 per VU
+
+running (6m34.0s), 1/1 VUs, 97 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  69% ] 1 VUs  6m34.0s/8m0s  097/140 iters, 140 per VU
+
+running (6m35.0s), 1/1 VUs, 97 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  69% ] 1 VUs  6m35.0s/8m0s  097/140 iters, 140 per VU
+
+running (6m36.0s), 1/1 VUs, 98 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  70% ] 1 VUs  6m36.0s/8m0s  098/140 iters, 140 per VU
+time="2026-05-23T18:51:36-05:00" level=info msg="Minute: 5, Iteration: 99, Error: false, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m37.0s), 1/1 VUs, 98 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  70% ] 1 VUs  6m37.0s/8m0s  098/140 iters, 140 per VU
+
+running (6m38.0s), 1/1 VUs, 98 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  70% ] 1 VUs  6m38.0s/8m0s  098/140 iters, 140 per VU
+
+running (6m39.0s), 1/1 VUs, 98 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  70% ] 1 VUs  6m39.0s/8m0s  098/140 iters, 140 per VU
+time="2026-05-23T18:51:40-05:00" level=info msg="Minute: 5, Iteration: 100, Error: false, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m40.0s), 1/1 VUs, 99 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  71% ] 1 VUs  6m40.0s/8m0s  099/140 iters, 140 per VU
+
+running (6m41.0s), 1/1 VUs, 99 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  71% ] 1 VUs  6m41.0s/8m0s  099/140 iters, 140 per VU
+
+running (6m42.0s), 1/1 VUs, 99 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  71% ] 1 VUs  6m42.0s/8m0s  099/140 iters, 140 per VU
+time="2026-05-23T18:51:43-05:00" level=info msg="Minute: 6, Iteration: 101, Error: false, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m43.0s), 1/1 VUs, 100 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  71% ] 1 VUs  6m43.0s/8m0s  100/140 iters, 140 per VU
+
+running (6m44.0s), 1/1 VUs, 100 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  71% ] 1 VUs  6m44.0s/8m0s  100/140 iters, 140 per VU
+
+running (6m45.0s), 1/1 VUs, 100 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  71% ] 1 VUs  6m45.0s/8m0s  100/140 iters, 140 per VU
+
+running (6m46.0s), 1/1 VUs, 101 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  72% ] 1 VUs  6m46.0s/8m0s  101/140 iters, 140 per VU
+time="2026-05-23T18:51:46-05:00" level=info msg="Minute: 6, Iteration: 102, Error: false, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m47.0s), 1/1 VUs, 101 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  72% ] 1 VUs  6m47.0s/8m0s  101/140 iters, 140 per VU
+
+running (6m48.0s), 1/1 VUs, 101 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  72% ] 1 VUs  6m48.0s/8m0s  101/140 iters, 140 per VU
+
+running (6m49.0s), 1/1 VUs, 101 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  72% ] 1 VUs  6m49.0s/8m0s  101/140 iters, 140 per VU
+time="2026-05-23T18:51:50-05:00" level=info msg="Minute: 6, Iteration: 103, Error: false, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m50.0s), 1/1 VUs, 102 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  73% ] 1 VUs  6m50.0s/8m0s  102/140 iters, 140 per VU
+
+running (6m51.0s), 1/1 VUs, 102 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  73% ] 1 VUs  6m51.0s/8m0s  102/140 iters, 140 per VU
+
+running (6m52.0s), 1/1 VUs, 102 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  73% ] 1 VUs  6m52.0s/8m0s  102/140 iters, 140 per VU
+
+running (6m53.0s), 1/1 VUs, 103 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  74% ] 1 VUs  6m53.0s/8m0s  103/140 iters, 140 per VU
+time="2026-05-23T18:51:53-05:00" level=info msg="Minute: 6, Iteration: 104, Error: false, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m54.0s), 1/1 VUs, 103 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  74% ] 1 VUs  6m54.0s/8m0s  103/140 iters, 140 per VU
+
+running (6m55.0s), 1/1 VUs, 103 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  74% ] 1 VUs  6m55.0s/8m0s  103/140 iters, 140 per VU
+
+running (6m56.0s), 1/1 VUs, 103 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  74% ] 1 VUs  6m56.0s/8m0s  103/140 iters, 140 per VU
+time="2026-05-23T18:51:56-05:00" level=info msg="Minute: 6, Iteration: 105, Error: false, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (6m57.0s), 1/1 VUs, 104 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  74% ] 1 VUs  6m57.0s/8m0s  104/140 iters, 140 per VU
+
+running (6m58.0s), 1/1 VUs, 104 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  74% ] 1 VUs  6m58.0s/8m0s  104/140 iters, 140 per VU
+
+running (6m59.0s), 1/1 VUs, 104 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  74% ] 1 VUs  6m59.0s/8m0s  104/140 iters, 140 per VU
+time="2026-05-23T18:52:00-05:00" level=info msg="Minute: 6, Iteration: 106, Error: false, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (7m00.0s), 1/1 VUs, 105 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  75% ] 1 VUs  7m00.0s/8m0s  105/140 iters, 140 per VU
+
+running (7m01.0s), 1/1 VUs, 105 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  75% ] 1 VUs  7m01.0s/8m0s  105/140 iters, 140 per VU
+
+running (7m02.0s), 1/1 VUs, 105 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  75% ] 1 VUs  7m02.0s/8m0s  105/140 iters, 140 per VU
+
+running (7m03.0s), 1/1 VUs, 106 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  76% ] 1 VUs  7m03.0s/8m0s  106/140 iters, 140 per VU
+time="2026-05-23T18:52:03-05:00" level=info msg="Minute: 6, Iteration: 107, Error: false, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (7m04.0s), 1/1 VUs, 106 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  76% ] 1 VUs  7m04.0s/8m0s  106/140 iters, 140 per VU
+
+running (7m05.0s), 1/1 VUs, 106 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  76% ] 1 VUs  7m05.0s/8m0s  106/140 iters, 140 per VU
+
+running (7m06.0s), 1/1 VUs, 106 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  76% ] 1 VUs  7m06.0s/8m0s  106/140 iters, 140 per VU
+time="2026-05-23T18:52:07-05:00" level=info msg="Minute: 6, Iteration: 108, Error: false, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (7m07.0s), 1/1 VUs, 107 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  76% ] 1 VUs  7m07.0s/8m0s  107/140 iters, 140 per VU
+
+running (7m08.0s), 1/1 VUs, 107 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  76% ] 1 VUs  7m08.0s/8m0s  107/140 iters, 140 per VU
+
+running (7m09.0s), 1/1 VUs, 107 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  76% ] 1 VUs  7m09.0s/8m0s  107/140 iters, 140 per VU
+
+running (7m10.0s), 1/1 VUs, 108 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  77% ] 1 VUs  7m10.0s/8m0s  108/140 iters, 140 per VU
+time="2026-05-23T18:52:10-05:00" level=info msg="Minute: 6, Iteration: 109, Error: false, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (7m11.0s), 1/1 VUs, 108 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  77% ] 1 VUs  7m11.0s/8m0s  108/140 iters, 140 per VU
+
+running (7m12.0s), 1/1 VUs, 108 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  77% ] 1 VUs  7m12.0s/8m0s  108/140 iters, 140 per VU
+
+running (7m13.0s), 1/1 VUs, 108 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  77% ] 1 VUs  7m13.0s/8m0s  108/140 iters, 140 per VU
+time="2026-05-23T18:52:14-05:00" level=info msg="Minute: 6, Iteration: 110, Error: false, Status: 200, Message: {\"message\":\"Nivel 2: Operación degradada, funcionalidades esenciales disponibles\",\"level\":2}" source=console
+
+running (7m14.0s), 1/1 VUs, 109 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  78% ] 1 VUs  7m14.0s/8m0s  109/140 iters, 140 per VU
+
+running (7m15.0s), 1/1 VUs, 109 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  78% ] 1 VUs  7m15.0s/8m0s  109/140 iters, 140 per VU
+
+running (7m16.0s), 1/1 VUs, 109 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  78% ] 1 VUs  7m16.0s/8m0s  109/140 iters, 140 per VU
+
+running (7m17.0s), 1/1 VUs, 110 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  79% ] 1 VUs  7m17.0s/8m0s  110/140 iters, 140 per VU
+time="2026-05-23T18:52:17-05:00" level=info msg="Minute: 6, Iteration: 111, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (7m18.0s), 1/1 VUs, 110 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  79% ] 1 VUs  7m18.0s/8m0s  110/140 iters, 140 per VU
+
+running (7m19.0s), 1/1 VUs, 110 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  79% ] 1 VUs  7m19.0s/8m0s  110/140 iters, 140 per VU
+
+running (7m20.0s), 1/1 VUs, 110 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  79% ] 1 VUs  7m20.0s/8m0s  110/140 iters, 140 per VU
+time="2026-05-23T18:52:21-05:00" level=info msg="Minute: 6, Iteration: 112, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (7m21.0s), 1/1 VUs, 111 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  79% ] 1 VUs  7m21.0s/8m0s  111/140 iters, 140 per VU
+
+running (7m22.0s), 1/1 VUs, 111 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  79% ] 1 VUs  7m22.0s/8m0s  111/140 iters, 140 per VU
+
+running (7m23.0s), 1/1 VUs, 111 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  79% ] 1 VUs  7m23.0s/8m0s  111/140 iters, 140 per VU
+
+running (7m24.0s), 1/1 VUs, 112 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  80% ] 1 VUs  7m24.0s/8m0s  112/140 iters, 140 per VU
+time="2026-05-23T18:52:24-05:00" level=info msg="Minute: 6, Iteration: 113, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (7m25.0s), 1/1 VUs, 112 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  80% ] 1 VUs  7m25.0s/8m0s  112/140 iters, 140 per VU
+
+running (7m26.0s), 1/1 VUs, 112 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  80% ] 1 VUs  7m26.0s/8m0s  112/140 iters, 140 per VU
+
+running (7m27.0s), 1/1 VUs, 112 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  80% ] 1 VUs  7m27.0s/8m0s  112/140 iters, 140 per VU
+time="2026-05-23T18:52:28-05:00" level=info msg="Minute: 6, Iteration: 114, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (7m28.0s), 1/1 VUs, 113 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  81% ] 1 VUs  7m28.0s/8m0s  113/140 iters, 140 per VU
+
+running (7m29.0s), 1/1 VUs, 113 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  81% ] 1 VUs  7m29.0s/8m0s  113/140 iters, 140 per VU
+
+running (7m30.0s), 1/1 VUs, 113 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  81% ] 1 VUs  7m30.0s/8m0s  113/140 iters, 140 per VU
+
+running (7m31.0s), 1/1 VUs, 114 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  81% ] 1 VUs  7m31.0s/8m0s  114/140 iters, 140 per VU
+time="2026-05-23T18:52:31-05:00" level=info msg="Minute: 6, Iteration: 115, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (7m32.0s), 1/1 VUs, 114 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  81% ] 1 VUs  7m32.0s/8m0s  114/140 iters, 140 per VU
+
+running (7m33.0s), 1/1 VUs, 114 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  81% ] 1 VUs  7m33.0s/8m0s  114/140 iters, 140 per VU
+
+running (7m34.0s), 1/1 VUs, 114 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  81% ] 1 VUs  7m34.0s/8m0s  114/140 iters, 140 per VU
+time="2026-05-23T18:52:34-05:00" level=info msg="Minute: 6, Iteration: 116, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (7m35.0s), 1/1 VUs, 115 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  82% ] 1 VUs  7m35.0s/8m0s  115/140 iters, 140 per VU
+
+running (7m36.0s), 1/1 VUs, 115 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  82% ] 1 VUs  7m36.0s/8m0s  115/140 iters, 140 per VU
+
+running (7m37.0s), 1/1 VUs, 115 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  82% ] 1 VUs  7m37.0s/8m0s  115/140 iters, 140 per VU
+time="2026-05-23T18:52:38-05:00" level=info msg="Minute: 6, Iteration: 117, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (7m38.0s), 1/1 VUs, 116 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  83% ] 1 VUs  7m38.0s/8m0s  116/140 iters, 140 per VU
+
+running (7m39.0s), 1/1 VUs, 116 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  83% ] 1 VUs  7m39.0s/8m0s  116/140 iters, 140 per VU
+
+running (7m40.0s), 1/1 VUs, 116 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  83% ] 1 VUs  7m40.0s/8m0s  116/140 iters, 140 per VU
+time="2026-05-23T18:52:41-05:00" level=info msg="Minute: 6, Iteration: 118, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (7m41.0s), 1/1 VUs, 117 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  84% ] 1 VUs  7m41.0s/8m0s  117/140 iters, 140 per VU
+
+running (7m42.0s), 1/1 VUs, 117 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  84% ] 1 VUs  7m42.0s/8m0s  117/140 iters, 140 per VU
+
+running (7m43.0s), 1/1 VUs, 117 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  84% ] 1 VUs  7m43.0s/8m0s  117/140 iters, 140 per VU
+
+running (7m44.0s), 1/1 VUs, 118 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  84% ] 1 VUs  7m44.0s/8m0s  118/140 iters, 140 per VU
+time="2026-05-23T18:52:44-05:00" level=info msg="Minute: 6, Iteration: 119, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (7m45.0s), 1/1 VUs, 118 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  84% ] 1 VUs  7m45.0s/8m0s  118/140 iters, 140 per VU
+
+running (7m46.0s), 1/1 VUs, 118 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  84% ] 1 VUs  7m46.0s/8m0s  118/140 iters, 140 per VU
+
+running (7m47.0s), 1/1 VUs, 118 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  84% ] 1 VUs  7m47.0s/8m0s  118/140 iters, 140 per VU
+time="2026-05-23T18:52:48-05:00" level=info msg="Minute: 6, Iteration: 120, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (7m48.0s), 1/1 VUs, 119 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  85% ] 1 VUs  7m48.0s/8m0s  119/140 iters, 140 per VU
+
+running (7m49.0s), 1/1 VUs, 119 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  85% ] 1 VUs  7m49.0s/8m0s  119/140 iters, 140 per VU
+
+running (7m50.0s), 1/1 VUs, 119 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  85% ] 1 VUs  7m50.0s/8m0s  119/140 iters, 140 per VU
+
+running (7m51.0s), 1/1 VUs, 120 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  86% ] 1 VUs  7m51.0s/8m0s  120/140 iters, 140 per VU
+time="2026-05-23T18:52:51-05:00" level=info msg="Minute: 7, Iteration: 121, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (7m52.0s), 1/1 VUs, 120 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  86% ] 1 VUs  7m52.0s/8m0s  120/140 iters, 140 per VU
+
+running (7m53.0s), 1/1 VUs, 120 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  86% ] 1 VUs  7m53.0s/8m0s  120/140 iters, 140 per VU
+
+running (7m54.0s), 1/1 VUs, 120 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  86% ] 1 VUs  7m54.0s/8m0s  120/140 iters, 140 per VU
+time="2026-05-23T18:52:54-05:00" level=info msg="Minute: 7, Iteration: 122, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (7m55.0s), 1/1 VUs, 121 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  86% ] 1 VUs  7m55.0s/8m0s  121/140 iters, 140 per VU
+
+running (7m56.0s), 1/1 VUs, 121 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  86% ] 1 VUs  7m56.0s/8m0s  121/140 iters, 140 per VU
+
+running (7m57.0s), 1/1 VUs, 121 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  86% ] 1 VUs  7m57.0s/8m0s  121/140 iters, 140 per VU
+time="2026-05-23T18:52:58-05:00" level=info msg="Minute: 7, Iteration: 123, Error: false, Status: 200, Message: {\"message\":\"Nivel 1: Operación completa, todas las capacidades activas\",\"level\":1}" source=console
+
+running (7m58.0s), 1/1 VUs, 122 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  87% ] 1 VUs  7m58.0s/8m0s  122/140 iters, 140 per VU
+
+running (7m59.0s), 1/1 VUs, 122 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  87% ] 1 VUs  7m59.0s/8m0s  122/140 iters, 140 per VU
+
+running (8m00.0s), 1/1 VUs, 122 complete and 0 interrupted iterations
+dynamic_payload_scenario   [  87% ] 1 VUs  8m00.0s/8m0s  122/140 iters, 140 per VU
+time="2026-05-23T18:53:01-05:00" level=info msg="Esperando 59 segundos para iniciar en el segundo 00..." source=console
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU
+
+
+  █ TOTAL RESULTS 
+
+    HTTP
+    http_req_duration..............: avg=429.67ms min=0s      med=404.89ms max=2.29s  p(90)=577.91ms p(95)=659.47ms
+      { expected_response:true }...: avg=433.2ms  min=193.4ms med=405.95ms max=2.29s  p(90)=579.59ms p(95)=661.84ms
+    http_req_failed................: 0.81% 1 out of 123
+    http_reqs......................: 123   0.255829/s
+
+    EXECUTION
+    dropped_iterations.............: 17    0.035358/s
+    iteration_duration.............: avg=3.9s     min=3.19s   med=3.4s     max=33.96s p(90)=3.58s    p(95)=3.68s   
+    iterations.....................: 123   0.255829/s
+    vus............................: 1     min=1        max=1
+    vus_max........................: 1     min=1        max=1
+
+    NETWORK
+    data_received..................: 84 kB 175 B/s
+    data_sent......................: 37 kB 77 B/s
+
+
+
+
+running (8m00.8s), 0/1 VUs, 123 complete and 0 interrupted iterations
+dynamic_payload_scenario ✓ [ 100% ] 1 VUs  8m0s  123/140 iters, 140 per VU

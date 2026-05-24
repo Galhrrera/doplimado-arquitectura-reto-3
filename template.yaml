@@ -1,0 +1,62 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  Niveles de Servicio Resilientes - Sistemas UltraSeguros S.A.
+  Sistema de degradación progresiva y recuperación automática.
+
+Globals:
+  Function:
+    Timeout: 10
+    MemorySize: 128
+    Runtime: nodejs20.x
+
+Resources:
+  ServiceApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: prod
+
+  ServiceFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: src/handler.handler
+      Runtime: nodejs20.x
+      Timeout: 10
+      MemorySize: 128
+      Environment:
+        Variables:
+          STATE_TABLE_NAME: !Ref StateTable
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref StateTable
+        - CloudWatchPutMetricPolicy: {}
+      Events:
+        ServiceApiPost:
+          Type: Api
+          Properties:
+            Path: /service-api
+            Method: POST
+            RestApiId: !Ref ServiceApi
+
+  StateTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub '${AWS::StackName}-state-table'
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: pk
+          AttributeType: S
+      KeySchema:
+        - AttributeName: pk
+          KeyType: HASH
+
+Outputs:
+  ServiceApiUrl:
+    Description: URL del endpoint de la API
+    Value: !Sub 'https://${ServiceApi}.execute-api.${AWS::Region}.amazonaws.com/prod/service-api'
+  ServiceFunctionArn:
+    Description: ARN de la función Lambda
+    Value: !GetAtt ServiceFunction.Arn
+  StateTableName:
+    Description: Nombre de la tabla DynamoDB
+    Value: !Ref StateTable

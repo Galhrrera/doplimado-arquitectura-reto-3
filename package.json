@@ -1,0 +1,21 @@
+{
+  "name": "resilient-service-levels",
+  "version": "1.0.0",
+  "description": "Sistema de niveles de servicio resilientes con degradación progresiva y recuperación automática",
+  "type": "module",
+  "main": "src/handler.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:unit": "vitest run tests/unit",
+    "test:property": "vitest run tests/property"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.600.0",
+    "@aws-sdk/client-cloudwatch": "^3.600.0"
+  },
+  "devDependencies": {
+    "fast-check": "^3.19.0",
+    "vitest": "^1.6.0"
+  }
+}
