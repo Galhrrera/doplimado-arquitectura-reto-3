@@ -11,7 +11,7 @@ El principio fundamental es: **el sistema nunca se cae, solo reduce sus capacida
 ## Tabla de Contenidos
 
 1. [Decisiones de Arquitectura](#decisiones-de-arquitectura)
-2. [Atributo de Calidad Priorizado](#atributo-de-calidad-priorizado)
+2. [Atributos de Calidad Priorizados](#atributos-de-calidad-priorizados)
 3. [Diagrama de Arquitectura](#diagrama-de-arquitectura)
 4. [Tácticas de Arquitectura](#tácticas-de-arquitectura)
 5. [Cómo Funciona el Sistema](#cómo-funciona-el-sistema)
@@ -24,14 +24,30 @@ El principio fundamental es: **el sistema nunca se cae, solo reduce sus capacida
 
 ## Decisiones de Arquitectura
 
-### ¿Por qué una sola Lambda?
+### Alternativas Evaluadas
+
+Antes de llegar a la arquitectura final, se evaluaron varias alternativas:
+
+**Opción 1: Múltiples Lambdas con invocación directa**
+Se consideró separar la lógica en funciones independientes (una para validación, otra para conteo, otra para evaluación de niveles). Sin embargo, invocar Lambda desde Lambda no es una buena práctica: genera acoplamiento temporal, aumenta la latencia acumulada, dificulta el manejo de errores en cascada, y duplica costos de invocación. AWS misma desaconseja este patrón.
+
+**Opción 2: Lambda orquestadora + Lambdas de servicio vía API**
+Se evaluó una arquitectura donde una Lambda orquestadora coordinara llamados HTTP a otras Lambdas expuestas como APIs internas. Aunque elimina el acoplamiento directo Lambda-a-Lambda, introduce complejidad significativa: múltiples API Gateways internos, manejo de timeouts en cadena, retry logic entre servicios, y un costo operativo desproporcionado para el alcance del reto.
+
+**Opción 3: Step Functions + EventBridge**
+Se consideró usar Step Functions para orquestar el flujo y EventBridge para desacoplar eventos. Si bien es una arquitectura elegante para sistemas distribuidos complejos, representaba sobre-ingeniería para este caso: el flujo es lineal, no hay ramificaciones condicionales complejas, y no hay procesamiento asíncrono que justifique la orquestación.
+
+**Decisión final: Una Lambda resiliente con toda la lógica**
+Se optó por una única función Lambda que contiene toda la lógica de negocio organizada en módulos internos. Esta decisión prioriza simplicidad, bajo costo, baja latencia y facilidad de mantenimiento — sin sacrificar la capacidad de degradación y recuperación que el reto exige.
+
+### Justificación de Componentes
 
 | Decisión | Justificación |
 |----------|---------------|
-| **Una sola Lambda** | La lógica es secuencial y autocontenida (validar → contar → evaluar → responder). Separar en múltiples funciones solo añadiría latencia, complejidad de orquestación y puntos de fallo sin beneficio alguno. Además, cumple la restricción de no usar invocaciones Lambda-a-Lambda. |
+| **Una sola Lambda** | Flujo secuencial y autocontenido. Elimina complejidad de orquestación, reduce latencia y puntos de fallo. Toda la lógica vive en módulos internos bien separados. |
 | **Una sola tabla DynamoDB** | Diseño single-table con partition key `pk` que distingue tipos de registro. Simplifica el modelo de datos y reduce costos operativos. |
-| **Sin colas, eventos ni servicios intermediarios** | El procesamiento es síncrono dentro de la invocación Lambda. No hay necesidad de procesamiento asíncrono porque cada solicitud necesita una respuesta inmediata con el nivel actual. |
-| **Ventanas temporales alineadas al minuto** | Permite agrupar errores en períodos discretos y predecibles. La clave de ventana se calcula truncando el timestamp al minuto. |
+| **Sin colas, eventos ni servicios intermediarios** | El procesamiento es síncrono dentro de la invocación Lambda. Cada solicitud necesita una respuesta inmediata con el nivel actual — no hay beneficio en procesamiento asíncrono. |
+| **Ventanas temporales alineadas al minuto** | Permite agrupar errores en períodos discretos y predecibles. La clave de ventana se calcula truncando el timestamp al minuto. Cada nuevo minuto inicia con contadores en cero automáticamente. |
 | **Operaciones atómicas en DynamoDB** | `UpdateExpression` con `ADD` para incrementos atómicos. Elimina race conditions sin necesidad de locks distribuidos. |
 | **Región us-east-2** | Requisito del proyecto, coincide con el script K6 de pruebas. |
 
@@ -52,9 +68,9 @@ Los únicos casos donde NO responde 200:
 
 ---
 
-## Atributo de Calidad Priorizado
+## Atributos de Calidad Priorizados
 
-### **Disponibilidad (Availability)**
+### **1. Disponibilidad (Availability)** — Atributo Principal
 
 La disponibilidad es el atributo de calidad más importante porque el objetivo central del sistema es **nunca dejar de responder**, incluso bajo condiciones adversas.
 
@@ -65,10 +81,21 @@ La disponibilidad es el atributo de calidad más importante porque el objetivo c
 3. **Recuperación automática sin intervención humana**: El sistema se auto-sana cuando las condiciones mejoran, eliminando la necesidad de intervención manual.
 4. **Tolerancia a fallos de infraestructura**: Si DynamoDB falla, el sistema tiene respuestas de fallback según el nivel actual.
 
-**Trade-offs aceptados:**
+### **2. Confiabilidad (Reliability)** — Atributo Secundario
+
+El sistema debe comportarse de forma predecible y correcta bajo todas las condiciones:
+
+- Las transiciones de nivel ocurren exactamente en los umbrales definidos (5 y 10 errores)
+- Los contadores son atómicos y consistentes bajo concurrencia
+- La degradación siempre tiene prioridad sobre la recuperación
+- El estado se persiste de forma durable en DynamoDB
+
+### **Trade-offs aceptados**
+
 - Se sacrifica consistencia estricta (eventual consistency en los contadores) a favor de disponibilidad
 - Se acepta simplicidad sobre flexibilidad (una sola Lambda, sin microservicios)
 - Se prioriza tiempo de respuesta predecible sobre funcionalidad completa
+- Se sacrifica escalabilidad horizontal (múltiples servicios) a favor de simplicidad operativa
 
 ---
 
@@ -152,7 +179,30 @@ stateDiagram-v2
 
 ## Tácticas de Arquitectura
 
-### 1. Degradación Progresiva (Graceful Degradation)
+### Tácticas de Detección de Fallas
+
+#### 1. Voting (Votación por Umbral)
+
+**Qué es**: Tomar decisiones basadas en la acumulación de evidencia, no en eventos individuales. Similar al concepto de voting en sistemas redundantes, donde se requiere un quórum para actuar.
+
+**Cómo se implementa**:
+- El sistema no reacciona ante un solo error — requiere que se acumulen **5 errores** (umbral de degradación a Nivel 2) o **10 errores** (umbral de degradación a Nivel 3) dentro de una ventana temporal
+- De forma análoga, la recuperación requiere un "voto de confianza": al menos **5 solicitudes exitosas** consecutivas (sin ningún error) para considerar que el sistema está sano
+- Este enfoque de votación por umbral evita reacciones prematuras ante errores esporádicos y garantiza que las transiciones solo ocurran cuando hay evidencia suficiente
+
+#### 2. Reconfiguración (Reconfiguration)
+
+**Qué es**: Cambiar dinámicamente el comportamiento del sistema en respuesta a condiciones detectadas, sin reinicio ni intervención manual.
+
+**Cómo se implementa**:
+- Cuando se detecta una acumulación de errores (voting), el sistema se **reconfigura automáticamente** cambiando su nivel de servicio
+- La reconfiguración es bidireccional: degrada cuando detecta problemas y se recupera cuando detecta estabilidad
+- El nivel de servicio actúa como una variable de configuración dinámica que determina el comportamiento de respuesta del sistema
+- No requiere redespliegue, reinicio ni intervención humana — la reconfiguración ocurre en tiempo real dentro de la misma invocación Lambda
+
+### Tácticas de Disponibilidad
+
+#### 3. Degradación Progresiva (Graceful Degradation)
 
 **Qué es**: Reducir las capacidades del sistema de forma escalonada en lugar de fallar completamente.
 
@@ -160,28 +210,18 @@ stateDiagram-v2
 - El sistema tiene 3 niveles de servicio con umbrales definidos
 - Nivel 1 → Nivel 2: cuando se acumulan 5+ errores en un minuto
 - Nivel 1/2 → Nivel 3: cuando se acumulan 10+ errores en un minuto
-- Cada nivel ofrece un subconjunto de funcionalidad, pero siempre responde
+- Cada nivel ofrece un subconjunto de funcionalidad, pero **siempre responde** — nunca deja de estar disponible
 
-### 2. Detección de Fallos por Ventana Temporal
-
-**Qué es**: Monitorear la tasa de errores en períodos discretos de tiempo para tomar decisiones.
-
-**Cómo se implementa**:
-- Cada solicitud con `error: true` incrementa un contador atómico en DynamoDB
-- Los contadores se agrupan en ventanas de 1 minuto (alineadas al segundo 00)
-- La clave de ventana se calcula truncando el timestamp: `WINDOW#2024-01-15T10:05`
-- Esto permite evaluar la "salud" del sistema en períodos recientes y predecibles
-
-### 3. Recuperación Automática (Self-Healing)
+#### 4. Recuperación Automática (Self-Healing)
 
 **Qué es**: El sistema se recupera sin intervención humana cuando las condiciones mejoran.
 
 **Cómo se implementa**:
 - Si una ventana temporal tiene 0 errores y al menos 5 solicitudes procesadas, el sistema sube un nivel
 - La recuperación es **gradual**: solo sube un nivel por ventana saludable (Nivel 3 → 2 → 1)
-- Esto evita oscilaciones rápidas entre niveles (flapping)
+- Esto evita oscilaciones rápidas entre niveles (flapping) y garantiza estabilidad
 
-### 4. Prioridad de Degradación sobre Recuperación
+#### 5. Prioridad de Degradación sobre Recuperación
 
 **Qué es**: Ante condiciones ambiguas, el sistema prefiere protegerse (degradar) antes que exponerse (recuperar).
 
@@ -190,7 +230,9 @@ stateDiagram-v2
 - Solo si no hay degradación, se evalúa la recuperación
 - Esto garantiza que el sistema nunca "sube" cuando debería estar "bajando"
 
-### 5. Operaciones Atómicas (Concurrency Control)
+### Tácticas de Soporte
+
+#### 6. Operaciones Atómicas (Concurrency Control)
 
 **Qué es**: Garantizar consistencia de los contadores bajo carga concurrente.
 
@@ -199,7 +241,7 @@ stateDiagram-v2
 - `ConditionExpression: attribute_not_exists(pk)` para inicialización idempotente
 - No se necesitan locks distribuidos ni transacciones
 
-### 6. Observabilidad (Monitoring & Logging)
+#### 7. Observabilidad (Monitoring & Logging)
 
 **Qué es**: Registrar todo lo necesario para auditar y diagnosticar el comportamiento del sistema.
 
