@@ -275,7 +275,6 @@ Cuando los errores se acumulan en una ventana temporal:
 |-----------|-----------|-------------|
 | 5+ errores en el minuto actual | Nivel 1 → Nivel 2 | "Hay problemas, reducimos capacidades" |
 | 10+ errores en el minuto actual | Nivel 2 → Nivel 3 | "Muchos problemas, operación mínima" |
-| 10+ errores en el minuto actual | Nivel 1 → Nivel 3 | "Avalancha de errores, salto directo al mínimo" |
 
 ### Recuperación
 
