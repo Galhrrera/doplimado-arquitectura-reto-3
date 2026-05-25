@@ -1,1 +1,8 @@
-.kiro
+.kiro/
+node_modules/
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform.lock.hcl
+terraform/lambda.zip
+k6-metrics.json
